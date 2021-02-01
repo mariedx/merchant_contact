@@ -1,0 +1,9 @@
+import React from 'react';
+
+const Phone = (props) => {
+  return (
+    <a className="btn btn-primary" href={`callto:${props.phoneNumber}`}>Appeller</a>
+  );
+};
+
+export default Phone;
